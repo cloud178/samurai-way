@@ -1,6 +1,7 @@
 :root {
-    --background-color: #e3e3e3;
-    --white-color: #fff;
+    --background-color: #d3d3d3;
+    --white-color: #ffffff;
+    --secondary-color: #3290ff;
 }
 
 .App {
@@ -21,25 +22,7 @@
     background-color: var(--background-color);
 }
 
-.header {
-    grid-area: h;
-    background-color: var(--white-color);
-}
 
-.header img {
-    height: 55px;
-}
 
-.nav {
-    grid-area: n;
-    background-color: var(--white-color);
-}
 
-.content {
-    grid-area: c;
-    background-color: var(--background-color);
-}
 
-.content img {
-    width: 100%;
-}

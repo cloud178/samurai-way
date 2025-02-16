@@ -1,6 +1,9 @@
+import React from 'react'
+import s from './Header.module.css'
+
 export const Header = () => {
     return (
-        <header className='header'>
+        <header className={s.header}>
             {/*<img*/}
             {/*src={'https://clipart-library.com/images_k/superman-logo-transparent-background/superman-logo-transparent-background-5.png'}/>*/}
             <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
