@@ -3,11 +3,8 @@
     background-color: var(--white-color);
 }
 
-.content img {
+.contentImg {
     width: 100%;
     height: 100px;
     object-fit: cover;
-}
-
-.item {
 }
